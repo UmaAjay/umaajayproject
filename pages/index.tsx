@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
           Teach you <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">Anything</span> in seconds
         </h1>
-        <p className="text-slate-500 my-5">100,225 answers generated so far.</p>
+        <p className="text-slate-500 my-5">we are counting answers generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">1</span>
@@ -156,8 +156,8 @@ const Home: NextPage = () => {
                 <LoadingDots color="white" style="large" />
               </button>
             )}
-            <a href="https://magickpen.com/" className="bg-white block md:flex-1 border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
-               Get Pro version &rarr;
+            <a href="https://team123.netlify.app/" className="bg-white block md:flex-1 border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
+               Get Pro version , then contact us;
             </a>
           </div>
         </div>
@@ -199,52 +199,11 @@ const Home: NextPage = () => {
         { error && (
           <p className="text-gray-400 my-5">🚨 Server error, please try again later, or you can <a href="https://twitter.com/lvwzhen" className=" underline hover:text-black">contact us</a>. </p>
         )}
-        <div className="mt-2">
-          <a href="https://twitter.com/intent/tweet/?text=Teach%20Anything&url=https%3A%2F%2Fwww.teach-anything.com" target="_blank" className="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80">
-              <svg className="w-4 h-4 mr-2 -ml-1" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
-              Share on Twitter
-            </a>
-        </div>
         <div className="my-5 max-w-xl w-full">
-          <h2 className=" text-slate-400 mb-4">SUPPORTED BY</h2>
-          <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-            <li>
-              <a href="https://magickpen.com/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/magickpen.svg" alt="MagickPen" />
-              </a>
-            </li>
-            <li>
-              <a href="https://e.cash" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/ecash.png" alt="eCash" />
-              </a>
-            </li>
-            <li>
-              <a href="https://neuronadigital.academy/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/NeuronaDigital.jpg" alt="Neurona Digital" />
-              </a>
-            </li>
-            <li>
-              <a href="https://talentorg.com.cn/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/talentorg.svg" alt="TalentOrg-雇佣全世界Top1%的人才" />
-              </a>
-            </li>
-            <li>
-              <a href="https://sailboatui.com/?ref=teach-anything" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain"src="/sailboatui.svg" alt="Sailboat UI" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.buymeacoffee.com/lvwzhen" className="flex px-2 items-center justify-center h-14 hover:bg-slate-100 rounded-lg hover:transition-all border border-dashed border-slate-200 bg-slate-50">
-                <p className="h-6 leading-6">❤️ Your logo</p>
-              </a>
-            </li>
-          </ul>
+          <h1>Still we are working, it is on process</h1>
         </div>
       </main>
       <Footer />
-      <div className="p-5 text-center md:fixed right-0 bottom-10">
-        <a href="https://www.producthunt.com/posts/teach-anything?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-teach&#0045;anything" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=378102&theme=light" alt="Teach&#0032;Anything - Teach&#0032;you&#0032;anything&#0032;in&#0032;seconds | Product Hunt" width="250" height="54" /></a>
-      </div>            
     </div>
   );
 };

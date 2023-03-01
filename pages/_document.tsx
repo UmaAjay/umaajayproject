@@ -4,10 +4,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <Head> 
          <link rel="manifest" href="/site.webmanifest"></link>
           <meta
             name="description"
@@ -23,14 +20,14 @@ class MyDocument extends Document {
             content="Teach you anything in seconds use AI."
           />
           <meta
-            property="og:image"
-            content="https://www.teach-anything.com/og-image.png"
+            property="Uma Ajay"
+            content="https://umaajay.netlify.app/"
           />
-          <meta name="twitter:card" content="summary_large_image"/>
-          <meta name="twitter:site" content="@lvwzhen"/>
-          <meta name="twitter:title" content="Teach Anything"/>
-          <meta name="twitter:description" content="Teach you anything in seconds use AI"/>
-          <meta name="twitter:image" content="https://www.teach-anything.com/og-image.png"/>
+          <meta name="Uma Ajay Kumar Reddy P S" content="summary_large_image"/>
+          <meta name="Uma Ajay" content="@lvwzhen"/>
+          <meta name="Uma Ajay" content="Teach Anything"/>
+          <meta name="Uma Ajay" content="Teach you anything in seconds use AI"/>
+          <meta name="Uma Ajay" content="https://umaajay.netlify.app/"/>
         </Head>
         <body>
           <Main />
