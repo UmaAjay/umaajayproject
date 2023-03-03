@@ -197,7 +197,7 @@ const Home: NextPage = () => {
           </AnimatePresence>
         </ResizablePanel>
         { error && (
-          <p className="text-gray-400 my-5">🚨 Server error, please try again later, or you can <a href="https://twitter.com/lvwzhen" className=" underline hover:text-black">contact us</a>. </p>
+          <p className="text-gray-400 my-5">🚨 Server error, please try again later, or you can <a href="https://umaajay.netlify.app/" className=" underline hover:text-black">contact uma ajay</a>. </p>
         )}
         <div className="my-5 max-w-xl w-full">
           <h1>Still we are working, it is on process</h1>
